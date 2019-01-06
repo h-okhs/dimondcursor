@@ -1,0 +1,235 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#include ""res\\DiamondCursor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // 標準コンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DiamondCursor.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIAMONDCURSOR_DIALOG DIALOGEX 0, 0, 87, 35
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "おやゆび姫"
+MENU IDR_MENU2
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    PUSHBUTTON      "OK",IDOK,4,4,36,16,BS_FLAT
+    PUSHBUTTON      "Quit",IDCANCEL,44,4,36,16,BS_FLAT
+    LTEXT           "(C) HiddenSoft.",IDC_STATIC,36,24,46,8
+END
+
+IDD_OPTION_DIALOG DIALOGEX 0, 0, 114, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "カスタマイズ"
+FONT 9, "MS UI Gothic", 400, 0, 0x80
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,80,36,28,16,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,80,56,28,16,BS_FLAT
+    PUSHBUTTON      "H",IDC_BUTTON1,4,4,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "7",IDC_BUTTON2,24,4,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "8",IDC_BUTTON3,40,4,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "9",IDC_BUTTON4,56,4,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "U",IDC_BUTTON5,24,20,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "I",IDC_BUTTON6,40,20,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "O",IDC_BUTTON7,56,20,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "K",IDC_BUTTON8,40,40,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "M",IDC_BUTTON9,24,56,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      ",",IDC_BUTTON10,40,56,16,16,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      ".",IDC_BUTTON11,56,56,16,16,BS_FLAT | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,80,16,28,12,ES_CENTER | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | NOT 
+                    WS_TABSTOP
+    CTEXT           "Key",IDC_STATIC,76,8,36,8,0,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041103a4"
+        BEGIN
+            VALUE "CompanyName", "HiddenSoft"
+            VALUE "FileDescription", "オレ式"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "DiamondCursor.EXE"
+            VALUE "LegalCopyright", "(C)HiddenSoft All rights reserved."
+            VALUE "OriginalFilename", "DiamondCursor.EXE"
+            VALUE "ProductName", "オレDC"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 932
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIAMONDCURSOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 80
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 28
+    END
+
+    IDD_OPTION_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 107
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\DiamondCursor.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "PopupMenu"
+    BEGIN
+        MENUITEM "カスタマイズ(&C)",            ID_NI_CUSTOMIZE
+        MENUITEM "終了(&Q)",                    ID_NI_QUIT
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "ツール(&T)"
+    BEGIN
+        MENUITEM "カスタマイズ(&C)",            ID_CUSTOMIZE
+        POPUP "オプション(&O)"
+        BEGIN
+            MENUITEM "まだ無し",                    ID_137
+        END
+    END
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE 17, 1
+#pragma code_page(932)
+#include "res\DiamondCursor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // 標準コンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

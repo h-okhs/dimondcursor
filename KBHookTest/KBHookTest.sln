@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KBHookTest", "KBHookTest.vcproj", "{665F12D8-9CF6-4715-8C54-53C232F576FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KBHookDLL", "..\KBHookDLL\KBHookDLL.vcproj", "{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{665F12D8-9CF6-4715-8C54-53C232F576FE}.0 = {8A15E46E-F02B-48C5-A1D7-20AA9123D52D}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{665F12D8-9CF6-4715-8C54-53C232F576FE}.Debug.ActiveCfg = Debug|Win32
+		{665F12D8-9CF6-4715-8C54-53C232F576FE}.Debug.Build.0 = Debug|Win32
+		{665F12D8-9CF6-4715-8C54-53C232F576FE}.Release.ActiveCfg = Release|Win32
+		{665F12D8-9CF6-4715-8C54-53C232F576FE}.Release.Build.0 = Release|Win32
+		{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}.Debug.ActiveCfg = Debug|Win32
+		{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}.Debug.Build.0 = Debug|Win32
+		{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}.Release.ActiveCfg = Release|Win32
+		{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

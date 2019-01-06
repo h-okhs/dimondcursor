@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiamondCursor", "DiamondCursor.vcproj", "{60FCE16E-C89B-490A-8526-D13A536E9DB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KBHookDLL", "..\KBHookDLL\KBHookDLL.vcproj", "{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{60FCE16E-C89B-490A-8526-D13A536E9DB8}.0 = {8A15E46E-F02B-48C5-A1D7-20AA9123D52D}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{60FCE16E-C89B-490A-8526-D13A536E9DB8}.Debug.ActiveCfg = Debug|Win32
+		{60FCE16E-C89B-490A-8526-D13A536E9DB8}.Debug.Build.0 = Debug|Win32
+		{60FCE16E-C89B-490A-8526-D13A536E9DB8}.Release.ActiveCfg = Release|Win32
+		{60FCE16E-C89B-490A-8526-D13A536E9DB8}.Release.Build.0 = Release|Win32
+		{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}.Debug.ActiveCfg = Debug|Win32
+		{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}.Debug.Build.0 = Debug|Win32
+		{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}.Release.ActiveCfg = Release|Win32
+		{8A15E46E-F02B-48C5-A1D7-20AA9123D52D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
